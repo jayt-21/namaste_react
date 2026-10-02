@@ -1,0 +1,32 @@
+in episode 1 we learnt :
+react can be run inside the html structure by cdn links 
+react supply jsx and browser converts it into html + js 
+we can create element by React.createElement(tag,attributes,content)
+and 
+Add Dom , root to the HTML doc where we have to insert that jsx we have created by ReactDOM.createRoot();
+the contenet insode root element will be replaced by this jsx we inject in the root
+we can also build nested objects in the jsx and drill props to inject at root 
+
+npm does not stands for node package manager but it is a package manager
+Package.json is config file made by npm
+bundler : bundles the app to ship to production
+ex: vite
+two types of dependencies :
+1 dev dependencies: generally req in dev circumstances
+2 normal dependencies : also used during production phase
+-D is a indication of dev dependency for npm 
+
+"devDependencies": {
+    "parcel": "^2.16.4"
+  }
+  "^2.16.4":
+  so ^ allows minor+patch updates like :
+  2.16.5,2.18.9 but not 3.0.0
+  while ~ only allows patch updates like:
+   2.16.4, 2.16.5 but not 2.17.0
+   packagelock.json: holds all the reocrd for the version of all the dependencies
+   node modules : dependencies and their dependencies to run and fscillitate the app
+   Transitive dependencies : dependencies of dependencies 
+   so we shouldn't put node modules on git as they are very heavy
+   but to sync with production we should push package-lock.json and package.json , using them we can recreate node modules during production
+   cmd for node module recreation npm i
