@@ -30,3 +30,9 @@ two types of dependencies :
    so we shouldn't put node modules on git as they are very heavy
    but to sync with production we should push package-lock.json and package.json , using them we can recreate node modules during production
    cmd for node module recreation npm i
+so installing react via cdn is too costly netwrok calls and all 
+using parcel to ignite the app is better and have all the dev dependencies bundled here
+so after installing react and react dom from parcel also mention app.js as module 
+as module can import and export packages and gives ability to app,js to import react and react-dom
+parcel build:
+so parcel build compresses your whole code into 3 files one for html , one for css and last for js 

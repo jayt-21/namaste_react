@@ -1,3 +1,8 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
+
 const h=React.createElement("h1",{
     //attributes of the html obj
     id:"heading",
