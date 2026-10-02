@@ -36,3 +36,9 @@ so after installing react and react dom from parcel also mention app.js as modul
 as module can import and export packages and gives ability to app,js to import react and react-dom
 parcel build:
 so parcel build compresses your whole code into 3 files one for html , one for css and last for js 
+
+
+#making compatible for older browser:
+add browserlist item into your dependencies , it takes array of string where you species which browser should be compatible for this app like:
+latest 2 Chrome versions 
+latest 2 versions :( includeslatest version of all browsers)
