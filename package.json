@@ -1,0 +1,32 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "this is namaste react",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/jayt-21/namaste_react#readme",
+  "bugs": {
+    "url": "https://github.com/jayt-21/namaste_react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayt-21/namaste_react.git"
+  },
+  "license": "ISC",
+  "author": "JAY",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
