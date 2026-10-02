@@ -6,3 +6,6 @@ and
 Add Dom , root to the HTML doc where we have to insert that jsx we have created by ReactDOM.createRoot();
 the contenet insode root element will be replaced by this jsx we inject in the root
 we can also build nested objects in the jsx and drill props to inject at root 
+
+npm does not stands for node package manager but it is a package manager
+Package.json is config file made by npm
